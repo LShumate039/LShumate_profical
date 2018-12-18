@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  background: black;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  background: url(Screen.png);
+
+  text-align: center;
+
+}
+
+img#len {
+  float: left;
+  display: inline;
+
+}
+
+
+img {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: rgb(101, 101, 101) 10px 10px 25px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+
+
+
+nav {
+  float: left;
+  clear: both;
+  display: block;
+
+
+}
+
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+article {
+  background: rgb(204, 92, 92);
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+
+
+footer {
+  background: rgb(204, 92, 92);
+  display: inline;
+}
