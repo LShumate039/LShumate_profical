@@ -17,10 +17,11 @@ html {
 
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
 }
 
 body {
-  background: url(Screen.png);
+  background: url(Screen.png) fixed;
 
   text-align: center;
 
@@ -32,7 +33,7 @@ img#len {
 
 }
 
-
+/* gives the image more detail*/
 img {
   width: 40%;
   margin-right: auto;
@@ -40,6 +41,10 @@ img {
   box-shadow: rgb(101, 101, 101) 10px 10px 25px;
 }
 
+img.blue {
+  width: 400px;
+  height: 200px;
+}
 
 h1 {
   text-align: center;
@@ -68,17 +73,19 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
-
+/* I delected text-align because it was messing up the code i put down on the other websites*/
 article {
   background: rgb(204, 92, 92);
   width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  /* text-align: justify; */
+  box-shadow: orangered 10px 10px 25px;
 }
 
 

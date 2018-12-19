@@ -12,3 +12,17 @@
    Filename: tb_visual2.css
 
 */
+
+article>h2 {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* these images share a rule to have a border and have a width to put in the borders*/
+img.blue {
+    border: 5px solid;
+    width: 400px;
+    height: 200px;
+}

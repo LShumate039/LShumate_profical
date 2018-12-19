@@ -12,19 +12,6 @@
    Filename: tb_visual2.css
 
 */
-img#cal {
-    width: 68%;
-}
-
-img {
-    display: none;
-
-}
-
-h2#bigger {
-    text-align: center;
-}
-
-p {
+nav {
     display: none;
 }
